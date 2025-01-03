@@ -1,6 +1,13 @@
-
 /* Reset CSS de base */
-body, h1, h2, h3, p, ul, li, img, a {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img,
+a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #159cd189;
+  background-color: #9BCFE3;
   color: #fff;
   position: relative;
 }
@@ -76,10 +83,12 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #159cd189; /*nav color!!*/
+    background-color: #159cd189;
+    /*nav color!!*/
     display: none;
     padding: 1rem 0;
-    z-index: 100; /* Assurez-vous que le menu passe au-dessus du contenu */
+    z-index: 100;
+    /* Assurez-vous que le menu passe au-dessus du contenu */
   }
 
   .nav-links.active {
@@ -146,6 +155,10 @@ main img {
   font-size: 1.5rem;
 }
 
+.category a {
+  text-decoration: none;
+}
+
 .category:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -180,8 +193,10 @@ section ul li a:hover {
 /* Styles pour le footer */
 /* Footer Styles */
 footer {
-  background-color: #159cd189; /* Couleur de fond sombre */
-  color: #ecf0f1; /* Couleur de texte claire */
+  background-color: #9BCFE3;
+  /* Couleur de fond sombre */
+  color: #ecf0f1;
+  /* Couleur de texte claire */
   padding: 20px 10px;
   text-align: center;
   margin-top: 30px;
@@ -214,7 +229,8 @@ footer .footer-links a {
 }
 
 footer .footer-links a:hover {
-  color: #3498db; /* Couleur bleu clair lors du survol */
+  color: #3498db;
+  /* Couleur bleu clair lors du survol */
 }
 
 footer .social-media {
@@ -233,8 +249,10 @@ footer .social-media a img {
 }
 
 footer .social-media a:hover {
-  transform: scale(1.2); /* Zoom sur l'icône lors du survol */
+  transform: scale(1.2);
+  /* Zoom sur l'icône lors du survol */
 }
+
 /*---------------------------------------------------------------------------*/
 
 /* Styles pour la page À Propos */
@@ -282,10 +300,12 @@ footer .social-media a:hover {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #3498db; /* Couleur pour les puces */
+  color: #3498db;
+  /* Couleur pour les puces */
 }
 
-.about p, .about ul {
+.about p,
+.about ul {
   text-align: justify;
 }
 
@@ -371,7 +391,8 @@ footer .social-media a:hover {
   margin-bottom: 5px;
 }
 
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
   width: 100%;
   padding: 10px;
   font-size: 1rem;
@@ -379,7 +400,8 @@ footer .social-media a:hover {
   border-radius: 4px;
 }
 
-.form-group input:focus, .form-group textarea:focus {
+.form-group input:focus,
+.form-group textarea:focus {
   outline: none;
   border-color: #3498db;
 }
